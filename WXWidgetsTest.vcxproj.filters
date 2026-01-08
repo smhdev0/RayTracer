@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cApp.cpp" />
+    <ClCompile Include="cMain.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="plyRead.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="BVHNode.cpp" />
+    <ClCompile Include="BVHTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cApp.h" />
+    <ClInclude Include="cMain.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="plyRead.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="BVHNode.h" />
+    <ClInclude Include="BVHTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bun_zipper.ply" />
+    <None Include="bun_zipper_res4.ply" />
+    <None Include="bun_zipper_res3.ply" />
+    <None Include="bun_zipper_res2.ply" />
+    <None Include="dragon_vrip_res4.ply" />
+    <None Include="dragon_vrip_res3.ply" />
+    <None Include="dragon_vrip_res2.ply" />
+    <None Include="dragon_vrip.ply" />
+    <None Include="happy_vrip_res2.ply" />
+    <None Include="happy_vrip_res3.ply" />
+  </ItemGroup>
+</Project>
